@@ -43,11 +43,10 @@ header {
   align-items: center;
   width: 100%;
   padding: 20px;
-  background-image: url(./assets//fondo8.svg);
+  background-image: url(./assets/pastel-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
 }
 
 #hero {
@@ -57,11 +56,12 @@ header {
   flex-direction: column;
   margin-top: 10vh;
   margin-bottom: 17vh;
-  padding: 90px;
-  width: 50%;
+  padding: 120px;
+  width: 70%;
   height: 100%;
   color: #333;
   background-color: #f5e8d0;
+  border-radius: 20px;
   box-shadow: 0 15px 8px rgba(0, 0, 0, 0.2);
 }
 #hero h1 {
@@ -114,11 +114,12 @@ header {
   flex-direction: column;
   margin-top: 10vh;
   margin-bottom: 17vh;
-  padding: 90px;
-  width: 50%;
+  padding: 110px;
+  width: 70%;
   height: 100%;
   color: #333;
   background-color: #faf5ef;
+  border-radius: 20px;
   box-shadow: 0 15px 8px rgba(0, 0, 0, 0.2);
 }
 .section_container h1 {
@@ -141,11 +142,11 @@ ol {
 
 .section_container ul li,
 ol li {
-  font-size: 1rem;
+  font-size: 1.1rem;
   border: 1px solid #fbf6f6;
   border-radius: 10px;
   background: linear-gradient(45deg, #d3e0dc, #f5e8d0, #e0c1b3);
-  padding: 15px;
+  padding: 20px;
   color: #333;
   margin-bottom: 20px;
 }
