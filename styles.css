@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Quicksand:wght@700&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #faf5ef;
   color: #333;
 }
@@ -23,12 +23,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 header {
-  background-color: #8daaa9;
-  color: #ffffff;
+  background-color: #d5b6a8;
+  color: #333333;
   padding: 20px;
   text-align: center;
   width: 100%;
@@ -37,6 +37,26 @@ header {
   width: 80px;
   height: 70px;
 }
+.nav-tabs {
+  border: none;
+  background-color: #d5b6a8;
+}
+
+.nav-tabs .nav-link {
+  color: #333333;
+  border: none;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #faf5ef;
+  color: #333333;
+  border-radius: 8px;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #555555;
+}
+
 .section_hero {
   display: flex;
   justify-content: center;
@@ -69,7 +89,7 @@ header {
   font-weight: 600;
   color: #3b3b3b;
   margin-bottom: 20px;
-  font-family: "Playfair Display", serif;
+  font-family: "Quicksand", sans-serif;
 }
 #hero p {
   font-size: 1.5rem;
@@ -94,7 +114,7 @@ header {
   margin-bottom: 20px;
   background-color: #f5e8d0;
   border-radius: 12px;
-  font-family: "Playfair Display", serif;
+  font-family: "Quicksand", sans-serif;
 }
 .hero_img {
   width: 340px;
@@ -127,7 +147,7 @@ header {
   font-weight: 600;
   color: #3b3b3b;
   margin-bottom: 20px;
-  font-family: "Playfair Display", serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .section_container ul,
@@ -164,11 +184,11 @@ table {
 }
 
 th {
-  background-color: #8daaa9;
-  color: #ffffff;
+  background-color: #d5b6a8;
+  color: #333333;
   padding: 10px;
   width: 100%;
-  font-family: "Playfair Display", serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 td {
@@ -194,9 +214,9 @@ td img {
 td h3 {
   font-size: 1rem;
   font-weight: 600;
-  color: #8daaa9;
+  color: #d5b6a8;
   margin: 10px;
-  font-family: "Playfair Display", serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 td iframe {
@@ -217,12 +237,12 @@ td iframe {
 
 /* Estilo para los elementos hijos */
 .description span {
-  color: #8daaa9;
+  color: #d5b6a8;
 }
 footer {
-  background-color: #8daaa9;
+  background-color: #d5b6a8;
   width: 100%;
-  color: #ffffff;
+  color: #333333;
   padding: 10px;
   text-align: center;
 }
